@@ -9,19 +9,6 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* 
-1.Từ ngoài vào trong
-2. Từ trên xuống dưới
-3. Từ tổng quan đến chi tiết
-*/
-
-/* 
-1. Vị trí
-2. Kích thước
-3. Màu sắc
-4. Kiểu dáng (kiểu chữ, hình tròn, vuông, ...)
-*/
-
 #main {
 
 }
@@ -29,7 +16,6 @@ html {
 #header {
     height: 46px;
     background-color: #000;
-    
 }
 
 #nav, .subnav {
@@ -38,6 +24,9 @@ html {
 
 #nav > li {
     display: inline-block;
+}
+
+#nav li {
     position: relative;
 }
 
@@ -47,10 +36,10 @@ html {
 }
 
 #nav li a {
-    text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
     display: block;
+    text-decoration: none;
 }
 
 #nav li:hover .subnav {
@@ -58,22 +47,22 @@ html {
 }
 
 #nav > li:hover > a,
-#nav .subnav li:hover a { 
-    color: #000; 
+#nav .subnav li:hover a {
+    color: #000;
     background-color: #ccc;
 }
 
 #nav .subnav {
     display: none;
     min-width: 160px;
+    position: absolute;
     top: 100%;
     left: 0;
-    position: absolute;
     background-color: #fff;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#nav .subnav:hover a {
+#nav .subnav a {
     color: #000;
     padding: 0 12px;
     line-height: 38px;
@@ -85,9 +74,9 @@ html {
 }
 
 #content {
-        
+
 }
 
 #footer {
-        
+
 }
