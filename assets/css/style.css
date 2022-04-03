@@ -68,6 +68,10 @@ html {
     line-height: 38px;
 }
 
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
 #slider {
     /* min-height: 500px;
     background-color: #333; */
